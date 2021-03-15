@@ -1,0 +1,88 @@
+.parentDiv{
+        display:flex;
+        margin: 150px;
+		}
+    .childDiv-1{
+        flex:50%;
+        padding:50px;
+        text-align:center;
+		}
+    .childDiv-2{
+        flex:20%;
+        padding:50px 10px 50px 50px;
+        text-align:left;
+        font-family: 'Montserrat', sans-serif;
+        background-color:white;
+        border-radius: 20px 0px 20px 0px;
+		}
+    .reg{
+       flex:5%;
+       }
+    .r{
+       flex:5%;
+       }
+    .fp{
+       flex:5%;
+        }
+    #button{
+        background-color:#40CCFF; 
+        border: none;
+        color: white;
+        border-radius:30px;
+        font-size:18px;
+        padding:8px 100px;
+       
+		}
+    #button:hover{
+        opacity:0.5;
+		}
+    #email{
+        background-color:#cfe3d1;
+        border:none;
+        padding:15px 120px 10px 10px;
+        font-size:10px;
+        font-family: 'Montserrat', sans-serif;
+		}
+    #pw{
+        background-color:#cfe3d1;
+        border:none;
+        padding:15px 120px 10px 10px;
+        font-size:10px;
+        font-family: 'Montserrat', sans-serif;
+		}
+     p{
+        font-size:10px;
+        color: black;}
+     h1{
+        font-size:30px;
+        color:black;}
+     body{
+        background-color:beige;}
+     
+     img{
+        float:left;
+       }
+	   
+	 .childDiv-2 span{
+	    color:#40CCFF; 
+		padding-right:10px; 
+	 }  
+	   @media only screen and (max-width:800px){
+		   
+		   .parentDiv{
+			   flex-direction:column;
+			   margin:0px;  
+		   }
+		   .childDiv-1{
+			   display:none;
+		   }
+		   .childDiv-2{
+			   border-radius:20px;
+		   }
+		   #button, #email, #pw{
+			   width:100%;
+			   padding:0;
+			   height:30px;
+			   padding:2px;   
+		   }  
+	   }
